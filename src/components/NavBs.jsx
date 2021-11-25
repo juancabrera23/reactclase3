@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Button from './reactclase4/NavButton';
 
 const NavBs = () => {
     return (
@@ -36,6 +36,7 @@ const NavBs = () => {
       </form>
     </div>
   </div>
+  <Button/>
 </nav>
     )
 }
