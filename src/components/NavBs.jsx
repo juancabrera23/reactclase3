@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from './reactclase4/NavButton';
+import CartWidget from './reactclase4/NavButton';
 
 const NavBs = () => {
     return (
@@ -31,12 +31,9 @@ const NavBs = () => {
           <a className="nav-link disabled" href="/#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li>
       </ul>
-      <form className="d-flex">
-        <button className="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      <CartWidget></CartWidget>
     </div>
   </div>
-  <Button/>
 </nav>
     )
 }

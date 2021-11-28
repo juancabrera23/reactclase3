@@ -1,6 +1,6 @@
 
 
-const Button = () => {
+const CartWidget = () => {
     return (
         <button class="btn btn-outline-success" type="submit">
 						<i class="fad fa-shopping-cart"></i>
@@ -9,4 +9,4 @@ const Button = () => {
     )
 }
 
-export default Button;
+export default CartWidget;
